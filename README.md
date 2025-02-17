@@ -14,5 +14,5 @@ docker run -d -p 9134:9134 \
  --name  nccl-exporter \
  -e NCCL_METRICS_LABEL=nccl_error \
  -e LOKI_URL="your loki url" \
-nccl-exporter:v1.0.0
+ nccl-exporter:v1.0.0
 ```
